@@ -10,17 +10,17 @@ export class DataCollectionForm {
     form.className = 'data-collection-form';
     form.innerHTML = `
       <div class="form-group">
-        <label for="totalIncome">Total Income ($)</label>
+        <label for="totalIncome">Total Income (UGX)</label>
         <input type="number" id="totalIncome" required min="0" max="1000000" step="1000">
       </div>
       
       <div class="form-group">
-        <label for="deductions">Total Deductions ($)</label>
+        <label for="deductions">Total Deductions (UGX)</label>
         <input type="number" id="deductions" required min="0" max="100000" step="100">
       </div>
       
       <div class="form-group">
-        <label for="businessIncome">Business Income ($)</label>
+        <label for="businessIncome">Business Income (UGX)</label>
         <input type="number" id="businessIncome" required min="0" max="100000" step="100">
       </div>
       
@@ -35,7 +35,7 @@ export class DataCollectionForm {
       </div>
       
       <div class="form-group">
-        <label for="netProfit">Net Profit/Loss ($)</label>
+        <label for="netProfit">Net Profit/Loss (UGX)</label>
         <input type="number" id="netProfit" required min="-100000" max="100000" step="100">
       </div>
       
